@@ -1,0 +1,34 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "codejam virtual keyboard",
+  "main": "script.js",
+  "dependencies": {
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1"
+  },
+  "scripts": {
+    "test": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/certif/codejam-virtual-keyboard.git"
+  },
+  "keywords": [
+    "codejam",
+    "RSSchool",
+    "keyboard"
+  ],
+  "author": "Oleksandr Tkachov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/certif/codejam-virtual-keyboard/issues"
+  },
+  "homepage": "https://github.com/certif/codejam-virtual-keyboard#readme"
+}
