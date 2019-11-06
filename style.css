@@ -1,0 +1,54 @@
+
+textarea {
+   display: block;
+   box-sizing: border-box;
+   width: 800px;
+   height: 300px;
+   margin: 0 auto 10px;
+   padding: 10px;
+   font-size: 18px;
+   color: #444;
+}
+
+.keyboard {
+   width: 800px;
+   margin: 0 auto;
+   user-select: none;
+   transition: bottom 0.4s;
+}
+
+.keyboard--keys {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   text-align: center;
+}
+
+.keyboard--key {
+   height: 45px;
+   width: 50px;
+   margin: 3px 2px;
+   border: none;
+   border-radius: 3px;
+   color: #fff;
+   background: #3a424e;
+   font-size: 1.05rem;
+   outline: none;
+   cursor: pointer;
+}
+
+.keyboard--key:active {
+   background: #282941;
+}
+
+.active {
+   background: #282941;
+}
+
+.keyboard--key_wide {
+   width: 90px;
+}
+
+.keyboard--key_space {
+   width: 400px;
+}
